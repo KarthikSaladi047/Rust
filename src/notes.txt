@@ -1,0 +1,9 @@
+Stack and Heap
+
+- Stack fills the data from bottom and LIFO policy. Stack is fast but limited. We don't explecetly delete the values that we have defined ( ex: let x = 5)
+
+- Heap fills data from top and FIFO policy. Heap is slow and used for long term usage.
+
+let x = Box::new(5);
+The above will actually store the value 5 in heap and the reference(memory address) of that value is stored in stack.
+println!("{}", *x);  * is called dereference operator.
