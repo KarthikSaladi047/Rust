@@ -5,13 +5,22 @@ mod data_types;
 mod operators;
 mod scope_and_shadowing;
 mod stack_heap;
-
+mod if_statements;
+mod while_loop;
+mod for_loop;
+mod match_statement;
+mod combination_lock;
 
 fn main(){
     // data_types::variable_types();
     // operators::operators();
     // scope_and_shadowing::scope_and_shadowing();
-    stack_heap::stack_heap();
+    // stack_heap::stack_heap();
+    // if_statements::if_statement();
+    // while_loop::while_loop();
+    // for_loop::for_loop();
+    // match_statement::match_statement();
+    combination_lock::combination_lock();
 }
 
 
